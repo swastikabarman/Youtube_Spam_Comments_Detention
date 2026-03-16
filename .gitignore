@@ -46,3 +46,5 @@ app.*.map.json
 
 # API key
 lib/config.dart
+
+android/
