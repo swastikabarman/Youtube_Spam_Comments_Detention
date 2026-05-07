@@ -8,6 +8,7 @@ A powerful, privacy-first web application that detects and filters spam, bot-gen
 
 - [Overview](#overview)
 - [Key Features](#key-features)
+- [Screenshots](#screenshots)
 - [Application Interface](#application-interface)
 - [Core Features](#core-features)
   - [Dashboard](#dashboard)
@@ -53,27 +54,58 @@ A powerful, privacy-first web application that detects and filters spam, bot-gen
 
 ---
 
+## 📸 Screenshots
+
+| # | Screenshot | Description |
+|---|-----------|-------------|
+| 1 | [Dashboard](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-1---dashboard) | Main navigation sidebar and dashboard overview |
+| 2 | [Comment Results (Spam Bot Filter)](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-2---comment-results-spam-bot-filter) | Filtered view showing detected spam comments |
+| 3 | [Comment Results (All Comments)](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-3---comment-results-all-comments) | Complete comment analysis with mixed results |
+| 4 | [Scan Video](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-4---scan-video) | Main interface for scanning YouTube videos |
+| 5 | [Scan History](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-5---scan-history) | History of previous scans with statistics |
+| 6 | [Filter Tool Example 1](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-6---filter-tool-example-1) | Manual spam comment classification (77% confidence) |
+| 7 | [Filter Tool Example 2](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-7---filter-tool-example-2) | Manual clean comment validation (91% confidence) |
+
+**View all screenshots**: [Complete Screenshot Documentation](.github/TEMP_PHOTOS.md)
+
+---
+
 ## 🖥️ Application Interface
 
 CommentGuard features an intuitive navigation sidebar with 6 main sections:
 
 ### **MAIN SECTION:**
-- 🏠 **Dashboard** - Overview and quick stats
-- 🔍 **Scan Video** - Analyze comments from any YouTube video
-- 📋 **Comment Results** - View and filter detected problematic comments
-- ⏱️ **Scan History** - Access all previous scans
+- 🏠 **Dashboard** - [View Screenshot 1](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-1---dashboard) - Overview and quick stats
+- 🔍 **Scan Video** - [View Screenshot 4](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-4---scan-video) - Analyze comments from any YouTube video
+- 📋 **Comment Results** - [View Screenshots 2 & 3](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-2---comment-results-spam-bot-filter) - View and filter detected problematic comments
+- ⏱️ **Scan History** - [View Screenshot 5](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-5---scan-history) - Access all previous scans
 
 ### **TOOLS SECTION:**
 - 📦 **Bulk Scan** - Process multiple videos at once
-- 🎯 **Filter Tool** - Classify raw comments instantly
-
-![CommentGuard Sidebar Navigation](https://via.placeholder.com/500x800?text=Navigation+Interface)
+- 🎯 **Filter Tool** - [View Screenshots 6 & 7](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-6---filter-tool-example-1) - Classify raw comments instantly
 
 ---
 
 ## 🚀 Core Features
 
-### 1️⃣ **Scan Video**
+### 1️⃣ **Dashboard** 
+📸 [View Screenshot 1](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-1---dashboard)
+
+**Purpose:** Get a quick overview of all CommentGuard features and access all main tools from the sidebar navigation.
+
+**Navigation Options:**
+- Dashboard - Main entry point
+- Scan Video - Analyze YouTube videos
+- Comment Results - Review flagged comments
+- Scan History - Access previous scans
+- Bulk Scan - Process multiple videos
+- Filter Tool - Classify individual comments
+
+---
+
+### 2️⃣ **Scan Video**
+
+📸 [View Screenshot 4](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-4---scan-video)
 
 **Purpose:** Analyze YouTube video comments for spam and harmful content
 
@@ -89,17 +121,20 @@ CommentGuard features an intuitive navigation sidebar with 6 main sections:
 - 🔓 **No sign-up required** - Immediate access
 - 🔐 **No data stored** - Complete privacy protection
 
-**Example:**
+**Example Workflow:**
 ```
-Video URL: youtube.com/watch?v=cI0THiydJM
-Comment Limit: 100 comments selected
-Status: Scanning...
-Result: Analysis completed
+1. Enter Video URL: youtube.com/watch?v=cI0THiydJM
+2. Select Comment Limit: 100 comments
+3. Click: "Scan Comments"
+4. Wait: ~4 seconds for AI analysis
+5. Review: Results with spam percentages
 ```
 
 ---
 
-### 2️⃣ **Scan History**
+### 3️⃣ **Scan History**
+
+📸 [View Screenshot 5](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-5---scan-history)
 
 **Purpose:** Track and review all your previous video scans
 
@@ -110,7 +145,7 @@ Result: Analysis completed
 - Spam percentage detected
 - Scan timestamp
 
-**Example from History:**
+**Real Example from Screenshot:**
 
 **Scan 1:**
 - YouTube Video (0% spam)
@@ -130,7 +165,9 @@ This feature helps you monitor patterns and trends in comment quality across you
 
 ---
 
-### 3️⃣ **Comment Results & Filtering**
+### 4️⃣ **Comment Results & Filtering**
+
+📸 [View Screenshots 2 & 3](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-2---comment-results-spam-bot-filter)
 
 **Purpose:** View detailed results and apply advanced filters to flagged comments
 
@@ -140,36 +177,45 @@ This feature helps you monitor patterns and trends in comment quality across you
 - 😠 **Hate Speech** - Offensive or harmful language
 - 🗣️ **Gibberish** - Nonsensical or random text
 - 👥 **Duplicate** - Repeated comments
+- ✅ **All** - View everything
 
 **Additional Controls:**
 - **Confidence Threshold Slider** - Adjust detection sensitivity (0-100%)
 - **Clear Filters** - Reset all filters at once
 
 #### **Example 1: Spam Bot Detection**
+📸 [View Screenshot 2](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-2---comment-results-spam-bot-filter)
 
-**Detected Comment:** "Please subscribe my channel."
-- Classification: **SPAM BOT** 🔴
-- Confidence: **77%**
-- Username: User account
-- Timestamp: Posted now
+**Detected Comments in Screenshot:**
 
-This type of comment is flagged because it's trying to redirect viewers to another channel rather than engaging with the video's content.
+| Username | Comment | Classification | Confidence |
+|----------|---------|-----------------|-----------|
+| @粟さいⅢ | [Promotional link] | 🔴 SPAM BOT | 95% |
+| @이준-z5u | [Korean text] | 🔴 SPAM BOT | 95% |
+| @triplehj7698 | [Promotional content] | 🔴 SPAM BOT | High |
 
----
-
-#### **Example 2: Clean Comment Classification**
-
-**Detected Comment:** "Really!! it was a massive explosion."
-- Classification: **CLEAN** ✅
-- Confidence: **91%**
-- Username: User account
-- Timestamp: Posted now
-
-This comment passes the spam detection filter with high confidence, indicating it's a genuine viewer engagement with legitimate interest in the video content.
+These comments are flagged because they're trying to redirect viewers or promote external content rather than engaging authentically with the video.
 
 ---
 
-### 4️⃣ **Comment Filter Tool**
+#### **Example 2: Mixed Comment Analysis**
+📸 [View Screenshot 3](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-3---comment-results-all-comments)
+
+**Detected Comments in Screenshot:**
+
+| Username | Comment | Classification | Confidence |
+|----------|---------|-----------------|-----------|
+| @alessiacapelli9139 | [Comment with emoji] 🎉 | ✅ CLEAN | 95% |
+| @RitaBerna-um9wx | "Ma in Italia esistono questi centri?" | ✅ CLEAN | 95% |
+| @RitaBerna-um9wx | "Come vorrei fare un massaggio così è meraviglioso ❤️" | ✅ CLEAN | - |
+
+These comments pass the spam detection filter with high confidence, indicating genuine viewer engagement.
+
+---
+
+### 5️⃣ **Comment Filter Tool**
+
+📸 [View Screenshots 6 & 7](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-6---filter-tool-example-1)
 
 **Purpose:** Manually classify individual comments without scanning a video
 
@@ -186,20 +232,29 @@ This comment passes the spam detection filter with high confidence, indicating i
 - 🗣️ **Gibberish** - Nonsensical text
 - 👥 **Duplicate** - Repeated content
 
-**Real-World Examples:**
+#### **Example 1: Spam Detection**
+📸 [View Screenshot 6](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-6---filter-tool-example-1)
 
-| Comment | Classification | Confidence | Category |
-|---------|-----------------|-----------|----------|
-| "Please subscribe my channel." | SPAM | 77% | Spam Bot |
-| "Really!! it was a massive explosion." | CLEAN | 91% | Legitimate |
-| "Check out my link: [URL]" | PROMO LINK | 85% | Promotional |
-| "This video is the worst..." | HATE SPEECH | 88% | Harmful |
-| "asdfjkl;asdfjk;l" | GIBBERISH | 92% | Nonsensical |
-| "Great video!" | CLEAN | 89% | Legitimate |
+**Input Comment:** "Please subscribe my channel."  
+**Classification Result:** 🔴 **SPAM**  
+**Confidence:** 77%
+
+**Analysis:** This comment is flagged as spam because it's trying to redirect viewers to subscribe to another channel rather than engaging with the video's content.
 
 ---
 
-### 5️⃣ **Bulk Scan**
+#### **Example 2: Clean Comment Validation**
+📸 [View Screenshot 7](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-7---filter-tool-example-2)
+
+**Input Comment:** "Really!! it was a massive explosion."  
+**Classification Result:** ✅ **CLEAN**  
+**Confidence:** 91%
+
+**Analysis:** This comment passes the spam detection filter with high confidence, indicating it's a genuine viewer engagement with legitimate interest in the video content.
+
+---
+
+### 6️⃣ **Bulk Scan**
 
 **Purpose:** Process multiple YouTube videos efficiently in one operation
 
@@ -351,7 +406,7 @@ Make moderation decisions
 
 ### **For Channel Moderation:**
 - 👥 Pre-screen comments before manual review
-- ⏱️ Save time on moderation tasks
+- ⏱�� Save time on moderation tasks
 - 🔍 Focus on legitimate community discussions
 - 📈 Scale moderation for growing channels
 
@@ -418,14 +473,6 @@ We welcome contributions! If you'd like to improve CommentGuard:
 
 ---
 
-## 📞 Support & Feedback
-
-- **Report Issues**: Open a GitHub issue
-- **Feature Requests**: Suggest improvements via discussions
-- **General Questions**: Check documentation or ask in discussions
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -446,12 +493,14 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [YouTube Data API Documentation](https://developers.google.com/youtube/v3)
 - [Flutter Documentation](https://flutter.dev/docs)
 - [NLP in Spam Detection](https://en.wikipedia.org/wiki/Spam_filtering)
+- [Screenshot Documentation](.github/TEMP_PHOTOS.md)
 - [Content Moderation Best Practices](https://example.com)
 
 ---
 
 **Last Updated:** May 7, 2026  
 **Version:** 1.0.0  
-**Status:** Active Development
+**Status:** Active Development  
+**Contributor:** [@shivam10-bithey](https://github.com/shivam10-bithey)
 
 *CommentGuard - Making YouTube Comments Clean, One Scan at a Time* 🛡️
