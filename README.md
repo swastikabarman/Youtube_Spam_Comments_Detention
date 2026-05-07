@@ -35,239 +35,77 @@ A powerful, privacy-first web application that detects and filters spam, bot-gen
 
 ## 📸 Screenshots
 
-### Image 1: Dashboard Navigation
+### Image 1: Scan History
+![Scan History](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-1---dashboard)
 
-```
-┌──────────────────────────────────────┐
-│      🛡️ CommentGuard                │
-├──────────────────────────────────────┤
-│                                      │
-│ MAIN                                 │
-│ 🏠 Dashboard                        │
-│ 🔍 Scan Video                       │
-│ 📋 Comment Results                  │
-│ ⏱️  Scan History                     │
-│                                      │
-│ TOOLS                                │
-│ 📦 Bulk Scan                        │
-│ 🎯 Filter Tool                      │
-│                                      │
-│            Logout                    │
-└──────────────────────────────────────┘
-```
-
-**Features:** Clean navigation sidebar with organized menu structure (MAIN & TOOLS sections)
+**Description:** View all previous scans with complete statistics including total comments analyzed, number of flagged comments, spam percentage, and scan timestamps.
 
 ---
 
-### Image 2: Spam Comment Detection (77% Confidence)
+### Image 2: Comment Filter Tool - Spam Detection Example
+![Filter Tool Spam](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-2---comment-results-spam-bot-filter)
 
-```
-╔═══════════════════════════════════════════════════════╗
-║ Filter Comments                                       ║
-║ ┌────────────────────────────────────────────────────┐║
-║ │ [All] ┌─Spam Bot─┐ [Promo Link] [Hate Speech]    ││
-║ │ [Gibberish] [Duplicate]                           ││
-║ │ Confidence Threshold: 0%                          ││
-║ └────────────────────────────────────────────────────┘║
-║                                                       ║
-║ Flagged Comments (5)                    [Clear]      ║
-╠═══════════════════════════════════════════════════════╣
-║                                                       ║
-║ @粟さいⅢ                            ┌─Spam Bot─┐   ║
-║ https://youtube.com/watch?v=...         │ 95%  │   ║
-║                                         └──────┘   ║
-║ Confidence: 0.95%                                   ║
-║ ❤️ 0                                                ║
-║                                                       ║
-║ @이준-z5u                            ┌─Spam Bot─┐   ║
-║ 박보매청비지두구혼화이고아이득대표법     │ 95%  │   ║
-║                                         └──────┘   ║
-║ Confidence: 0.95%                                   ║
-║ ❤️ 0                                                ║
-║                                                       ║
-║ @triplehj7698                        ┌─Spam Bot─┐   ║
-║ 이분 뭔가 늘었으믹의 속성저더응칼같음  │ High │   ║
-║                                         └──────┘   ║
-╚═══════════════════════════════════════════════════════╝
-```
-
-**Result:** ✅ Detected spam bots attempting to redirect viewers | Confidence: 77-95%
+**Description:** Manual comment classification showing "Please subscribe my channel" detected as SPAM with 77% confidence.
 
 ---
 
-### Image 3: Comment Results - All Comments (50 Total)
+### Image 3: Scan Video Interface
+![Scan Video](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-4---scan-video)
 
-```
-╔═══════════════════════════════════════════════════════╗
-║ Filter Comments - ALL RESULTS (50 comments)          ║
-║ ┌────────────────────────────────────────────────────┐║
-║ │ ┌─All─┐ [Spam Bot] [Promo Link] [Hate Speech]     ││
-║ │ [Gibberish] [Duplicate]                           ││
-║ │ Confidence Threshold: 0%                          ││
-║ └────────────────────────────────────────────────────┘║
-║                                                       ║
-║ Flagged Comments (50)                   [Clear]      ║
-╠═══════════════════════════════════════════════════════╣
-║                                                       ║
-║ @alessiacapelli9139                  ┌─Clean──┐    ║
-║ 🎉 [Emoji reaction]                  │  95% │    ║
-║                                       └──────┘    ║
-║ Confidence: 0.95%  ❤️ 0                           ║
-║                                                       ║
-║ @RitaBerna-um9wx                     ┌─Clean──┐    ║
-║ "Ma in Italia esistono questi centri?" │ 95% │    ║
-║                                       └──────┘    ║
-║ Confidence: 0.95%  ❤️ 0                           ║
-║                                                       ║
-║ @RitaBerna-um9wx                     ┌─Clean──┐    ║
-║ "Come vorrei fare un massaggio così   │  ✅  │    ║
-║  è meraviglioso ❤️"                   └──────┘    ║
-║                                                       ║
-╚═══════════════════════════════════════════════════════╝
-```
+**Description:** Main interface for scanning YouTube videos. Enter video URL, select comment limit (50/100/200/500), and analyze comments with ~4 second AI processing.
 
-**Result:** ✅ Mixed comments analyzed | Clean comments detected with 95% confidence
+**Key Features Shown:**
+- YouTube Video URL input field
+- Comment limit selection buttons
+- Key benefits: ~4 second scan, Up to 500 comments, No sign-up, No data stored
 
 ---
 
-### Image 4: Scan Video Interface
+### Image 4: Comment Filter Tool - Clean Comment Example
+![Filter Tool Clean](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-7---filter-tool-example-2)
 
-```
-╔═════════════════════════════════════════════════════╗
-║                                                     ║
-║           Scan a YouTube Video                      ║
-║   Enter a video URL to analyze its comments        ║
-║                                                     ║
-║ ⭕ YouTube Video URL                               ║
-║ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓        ║
-║ ┃ tube.com/watch?v=cI0THiydJM             ┃        ║
-║ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛        ║
-║                                                     ║
-║ Comment Limit                                       ║
-║ ┌──────────────────────────────────────────────┐  ║
-║ │ [50 comments] [100 comments]                │  ║
-║ │ [200 comments] ┌─100 comments─┐           │  ║
-║ │               └────────────────┘           │  ║
-║ └──────────────────────────────────────────────┘  ║
-║                                                     ║
-║           🔍 Scan Comments                          ║
-║                                                     ║
-║ ⚡ ~4 second scan                                   ║
-║    Fast AI analysis on your video                  ║
-║                                                     ║
-║ 💬 Up to 500 comments                              ║
-║    Analyzes public comments from the video         ║
-║                                                     ║
-║ 🔓 No sign-up required                             ║
-║    Start scanning immediately                      ║
-║                                                     ║
-║ 🔐 No data stored                                  ║
-║    Your data is never saved                        ║
-║                                                     ║
-╚═════════════════════════════════════════════════════╝
-```
-
-**Features:** URL input | 4 comment limits (50, 100, 200, 500) | Key benefits listed
+**Description:** Manual comment classification showing "Really!! it was a massive explosion" detected as CLEAN with 91% confidence.
 
 ---
 
-### Image 5: Scan History - Previous Results
+### Image 5: Comment Results - Spam Bot Filter
+![Comment Results Spam](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-2---comment-results-spam-bot-filter)
 
-```
-╔═════════════════════════════════════════════════════╗
-║                  Scan History                       ║
-║          All your previous scans (2 total)          ║
-║                                                     ║
-╠═════════════════════════════════════════════════════╣
-║                                                     ║
-║  YouTube Video                        ┌─0%──┐     ║
-║  https://youtu.be/2BpdKO_kNyi        │Spam │     ║
-║                                       └─────┘     ║
-║  Total Comments: 0                                 ║
-║  Flagged: 0                                        ║
-║  Scanned: Now                                      ║
-║                                                     ║
-╠═════════════════════════════════════════════════════╣
-║                                                     ║
-║  YouTube Video                        ┌─10%─┐     ║
-║  https://www.youtube.com/watch?v=...  │Spam │     ║
-║                                       └─────┘     ║
-║  Total Comments: 50                                ║
-║  Flagged: 5                                        ║
-║  Scanned: Now                                      ║
-║                                                     ║
-╚═════════════════════════════════════════════════════╝
-```
+**Description:** Filtered view showing detected spam comments (5 flagged) with individual spam bot classifications and confidence scores (95% each).
 
-**Metrics:** Spam % per video | Total comments | Flagged count | Timestamp
+**Detected Spam Examples:**
+- @粟さいⅢ - Spam Bot | 95% confidence
+- @이준-z5u - Spam Bot | 95% confidence  
+- @triplehj7698 - Spam Bot | High confidence
 
 ---
 
-### Image 6: Filter Tool - Spam Example (77% Confidence)
+### Image 6: Comment Results - All Comments View
+![Comment Results All](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-3---comment-results-all-comments)
 
-```
-╔═════════════════════════════════════════════════════╗
-║            Comment Filter Tool                      ║
-║  Paste raw comments and classify them instantly    ║
-║                                                     ║
-║ Paste Comments (one per line)                      ║
-║ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓        ║
-║ ┃ Please subscribe my channel.            ┃        ║
-║ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛        ║
-║                                                     ║
-║         ✨ Classify Comments                        ║
-║                                                     ║
-╠═════════════════════════════════════════════════════╣
-║                                                     ║
-║         Classification Results                      ║
-║                                                     ║
-║  ┌───────────────────────────────────────┐        ║
-║  │ 🔴 spam                               │        ║
-║  │                                        │        ║
-║  │ "Please subscribe my channel."        │        ║
-║  │                                        │        ║
-║  │ Confidence: 77%                       │        ║
-║  └───────────────────────────────────────┘        ║
-║                                                     ║
-╚═════════════════════════════════════════════════════╝
-```
+**Description:** Complete analysis showing 50 total comments with mixed results - both clean and flagged comments with confidence scores.
 
-**Result:** 🔴 SPAM | Confidence: 77% | Reason: Redirecting viewers to another channel
+**Sample Comments Shown:**
+- @alessiacapelli9139 - "🎉" - CLEAN | 95% confidence
+- @RitaBerna-um9wx - "Ma in Italia esistono questi centri?" - CLEAN | 95% confidence
+- @RitaBerna-um9wx - "Come vorrei fare un massaggio così è meraviglioso ❤️" - CLEAN
 
 ---
 
-### Image 7: Filter Tool - Clean Comment (91% Confidence)
+### Image 7: Dashboard Navigation
+![Dashboard](https://github.com/swastikabarman/Youtube_Spam_Comments_Detention/blob/main/.github/TEMP_PHOTOS.md#image-1---dashboard)
 
-```
-╔═════════════════════════════════════════════════════╗
-║            Comment Filter Tool                      ║
-║  Paste raw comments and classify them instantly    ║
-║                                                     ║
-║ Paste Comments (one per line)                      ║
-║ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓        ║
-║ ┃ Really!! it was a massive explosion.   ┃        ║
-║ ┃ (Processing...) 🟣                     ┃        ║
-║ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛        ║
-║                                                     ║
-║         ✨ Classify Comments                        ║
-║                                                     ║
-╠═════════════════════════════════════════════════════╣
-║                                                     ║
-║         Classification Results                      ║
-║                                                     ║
-║  ┌───────────────────────────────────────┐        ║
-║  │ ✅ clean                              │        ║
-║  │                                        │        ║
-║  │ "Really!! it was a massive explosion."│        ║
-║  │                                        │        ║
-║  │ Confidence: 91%                       │        ║
-║  └───────────────────────────────────────┘        ║
-║                                                     ║
-╚═════════════════════════════════════════════════════╝
-```
+**Description:** Main navigation sidebar showing all features organized in two sections:
 
-**Result:** ✅ CLEAN | Confidence: 91% | Reason: Genuine viewer engagement
+**MAIN Section:**
+- 🏠 Dashboard
+- 🔍 Scan Video
+- 📋 Comment Results
+- ⏱️ Scan History
+
+**TOOLS Section:**
+- 📦 Bulk Scan
+- 🎯 Filter Tool
 
 ---
 
